@@ -1,17 +1,17 @@
 {
   "name": "@achmadk/axios-time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Achmad Kurnianto",
-  "main": "dist/index.js",
-  "module": "dist/axios-time.esm.js",
-  "typings": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/axios-time.esm.js",
+  "typings": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/axios-time.esm.js"
     }
@@ -46,11 +46,11 @@
   "size-limit": [
     {
       "path": "dist/axios-time.cjs.production.min.js",
-      "limit": "200 B"
+      "limit": "275 B"
     },
     {
       "path": "dist/axios-time.esm.js",
-      "limit": "20 B"
+      "limit": "190 B"
     }
   ],
   "devDependencies": {
